@@ -1,6 +1,6 @@
 {
   "name": "x-sampa-ipa",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "X-SAMPA to IPA and IPA to X-SAMPA converter",
   "main": "index.js",
   "scripts": {
