@@ -30,7 +30,7 @@
     "Description": "implosive (IPA uses separate symbols for implosives)"
   },
   {
-    "X-SAMPA": "= (or _=)",
+    "X-SAMPA": "_=",
     "IPA": "̩",
     "Description": "syllabic"
   },
@@ -65,7 +65,7 @@
     "Description": "rhotacization in vowels, retroflexion in consonants (IPA uses separate symbols for consonants, see t` for an example)"
   },
   {
-    "X-SAMPA": "~ (or _~)",
+    "X-SAMPA": "_~",
     "IPA": "̃",
     "Description": "nasalization"
   },
