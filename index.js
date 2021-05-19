@@ -25,8 +25,8 @@ _escape= function(s) {
     return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
 
-let xsRE  = new RegExp('('+Object.keys(_xsampa).filter(x => !!x).map(_escape).join('|')+')', 'g');
-let ipaRE = new RegExp('('+Object.keys(_ipa).filter(x => !!x).map(_escape).join('|')+')', 'g');
+let xsRE  = new RegExp('('+Object.keys(_xsampa).reverse().filter(x => !!x).map(_escape).join('|')+')', 'g');
+let ipaRE = new RegExp('('+Object.keys(_ipa).reverse().filter(x => !!x).map(_escape).join('|')+')', 'g');
 
 
 
